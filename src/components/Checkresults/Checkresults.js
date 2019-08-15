@@ -60,7 +60,9 @@ class Checkresults extends Component{
             })
         }
         else{
-            alert("Please fill details")
+            this.setState({
+                error:true
+            })
         }
         
     }
@@ -91,7 +93,9 @@ class Checkresults extends Component{
 
         }
         else{
-            alert("Please fill details")
+            this.setState({
+                error:true
+            })
         }
     }
 

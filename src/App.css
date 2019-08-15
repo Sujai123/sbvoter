@@ -1,0 +1,62 @@
+.h1{
+    display: inline-block;
+    font-size: 4rem;
+    text-shadow: 3px -2px darkred,
+                4px -3px darkred,
+                5px -4px darkred,
+                6px -5px darkred,
+                7px -6px darkred,
+                8px -7px darkred,
+                9px -8px darkred,
+                10px -9px darkred,
+                11px -10px darkred;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 8px;
+    word-spacing: 10px;
+}
+
+button:hover{
+    cursor:pointer
+}
+
+img{
+    position: fixed;
+    width: 100%;
+    z-index:-1;
+    height: 125%;
+}
+
+.Homepage{
+    width:70%
+}
+
+@media screen and (max-width:450px){
+    .Homepage{
+        width:80%
+    }
+}
+
+@media screen and (max-width:382px){
+    .Homepage{
+        width:90%
+    }
+}
+
+@media screen and (max-width:305px){
+    .h1{
+        display: inline-block;
+        font-size: 3.5rem;
+        text-shadow: 3px -2px darkred,
+                    4px -3px darkred,
+                    5px -4px darkred,
+                    6px -5px darkred,
+                    7px -6px darkred,
+                    8px -7px darkred,
+                    9px -8px darkred,
+                    10px -9px darkred,
+                    11px -10px darkred;
+        font-family: 'Bangers', cursive;
+        letter-spacing: 8px;
+        word-spacing: 10px;
+    }
+}

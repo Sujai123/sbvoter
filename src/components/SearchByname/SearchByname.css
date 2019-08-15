@@ -1,0 +1,34 @@
+.SearchByname  .participants{
+    border:1px solid black;
+    display: flex;
+}
+
+.SearchByname .participants b{
+    color: purple
+}
+
+@media screen and (max-width:690px){
+    .SearchByname .participants p{
+        font-size: 15px
+    }
+    .SearchByname .participants button{
+        font-size: 15px;
+        width:100px;
+    }
+}
+
+@media screen and (max-width:592px){
+    .SearchByname .participants p{
+        font-size: 12px
+    }
+    .SearchByname .participants button{
+        font-size: 12px;
+        width:80px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .timeformat{
+        display: block
+    }
+}

@@ -1,0 +1,23 @@
+.Pollresults b{
+    color: purple
+}
+.Pollresults p{
+    color: #FBF1A9;
+    font-size: 20px
+}
+
+.Pollresults .participants{
+    font-size: 30px
+}
+
+@media screen and (max-width:652px){
+    .voteshandler{
+        display: block
+    }
+}
+
+@media screen and (max-width:500px){
+    .timeformat{
+        display: block
+    }
+}

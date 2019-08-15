@@ -1,0 +1,46 @@
+.Createpoll input[type="text"]{
+    background-color: lightgreen;
+    border: 1.5px solid purple;
+    color:purple;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.Createpoll button{
+    width:200px;
+    margin-top: 20px;
+    color:purple;
+    border : 2px solid purple;
+    background-color: silver;
+    padding: 5px;
+    border-radius: 20px;
+    outline:none;
+    font-size: 20px;
+}
+
+.Createpoll button:hover{
+    width:200px;
+    margin-top: 20px;
+    color:silver;
+    border : 2px solid silver;
+    background-color: purple;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.Createpoll button:active{
+    width:200px;
+    margin-top: 20px;
+    color:silver;
+    border : 2px solid silver;
+    background-color: black;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.Createpoll p{
+    color:#FBF1A9;
+    font-size: 20px;
+}

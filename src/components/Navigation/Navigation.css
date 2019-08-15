@@ -1,0 +1,39 @@
+.Navigation button{
+    color:red;
+    border : 2px solid red;
+    background-color: #FBF1A9;
+    padding: 5px;
+    border-radius: 20px;
+    outline: none;
+    font-size: 20px;
+}
+
+.Navigation button:hover{
+    color:#FBF1A9;
+    border : 2px solid #FBF1A9;
+    background-color: red;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.Navigation button:active{
+    color:#FBF1A9;
+    border : 2px solid #FBF1A9;
+    background-color: lightgreen;
+    padding: 5px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+@media screen and (max-width:340px){
+    .Navigation button{
+        color:red;
+        border : 2px solid red;
+        background-color: #FBF1A9;
+        padding: 5px;
+        border-radius: 20px;
+        outline: none;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,13 @@
+.Created b{
+    color: purple
+}
+.Created p{
+    color: #FBF1A9;
+    font-size: 20px;
+}
+
+@media screen and (max-width:500px){
+    .timeformat{
+        display: block
+    }
+}

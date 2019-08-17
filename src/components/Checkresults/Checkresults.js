@@ -157,12 +157,12 @@ class Checkresults extends Component{
         if(this.state.route==="Checkresults"){
             msg = <div>
                     {msg1}
-                    <p>Enter name(Search by name) : </p>
-                    <input type="text" onChange={this.updatename} autoFocus onKeyPress={this.updatenamekeyhandler} /><br />
-                    <button onClick={this.searchByname}>Search by name Click to vote!!!</button>
                     <p>Enter Poll id (Enter a valid pollid or try searching for name) : </p>
                     <input type="text" onChange={this.updatePollid} onKeyPress={this.updatePollidkeyhandler} /><br />
                     <button onClick={this.submitDetails}>Check Results!!!</button>
+                    <p>Enter name(Search by name) : </p>
+                    <input type="text" onChange={this.updatename} autoFocus onKeyPress={this.updatenamekeyhandler} /><br />
+                    <button onClick={this.searchByname}>Search by name Click to vote!!!</button>
                     {msg2}
                 </div>
         }

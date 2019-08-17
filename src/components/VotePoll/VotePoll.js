@@ -170,12 +170,12 @@ class VotePoll extends Component{
                     {msg1}
                     <p>Enter Your name(*) : </p>
                     <input type="text" onChange={this.updateUsername} autoFocus />
-                    <p>Enter Name(Search by name who created) : </p>
-                    <input type="text" onChange={this.updatename} onKeyPress={this.updatenamekeyhandler} /><br />
-                    <button onClick={this.searchByname}>Search by name Click to vote!!!</button>
                     <p>Enter Poll id (Enter a valid pollid or try searching for name) : </p>
                     <input type="text" onChange={this.updatePollid} onKeyPress={this.updatepollidkeyhandler} /><br />
                     <button onClick={this.submitDetails}>Click to vote!!!</button>
+                    <p>Enter Name(Search by name who created) : </p>
+                    <input type="text" onChange={this.updatename} onKeyPress={this.updatenamekeyhandler} /><br />
+                    <button onClick={this.searchByname}>Search by name Click to vote!!!</button>
                     {msg2}
                 </div>
         }

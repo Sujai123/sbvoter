@@ -158,10 +158,10 @@ class Checkresults extends Component{
             msg = <div>
                     {msg1}
                     <p>Enter Poll id (Enter a valid pollid or try searching for name) : </p>
-                    <input type="text" onChange={this.updatePollid} onKeyPress={this.updatePollidkeyhandler} /><br />
+                    <input type="text" onChange={this.updatePollid} onKeyPress={this.updatePollidkeyhandler} autoFocus /><br />
                     <button onClick={this.submitDetails}>Check Results!!!</button>
                     <p>Enter name(Search by name) : </p>
-                    <input type="text" onChange={this.updatename} autoFocus onKeyPress={this.updatenamekeyhandler} /><br />
+                    <input type="text" onChange={this.updatename} onKeyPress={this.updatenamekeyhandler} /><br />
                     <button onClick={this.searchByname}>Search by name Click to vote!!!</button>
                     {msg2}
                 </div>
